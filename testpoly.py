@@ -23,10 +23,10 @@ def makeShape(length, numSides, shapeName):
     goto(0, 0)
     setheading(0)
     begin_poly()
-    regularPolygon(length, numSides)
+    #regularPolygon(length, numSides)
     end_poly()
     shape = get_poly()
-    addshape(shapeName, shape)
+    #addshape(shapeName, shape)
         
 def main():
     """Creates two turtles with custom shapes and allows you
