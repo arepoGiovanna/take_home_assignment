@@ -19,7 +19,7 @@ def makeRocketShape():
     shape.addcomponent(fin1, "green", "black")
     shape.addcomponent(fin2, "green", "black")
     addshape("rocket", shape)
-   '''     
+
 def main():
     """Creates two turtles with custom shapes and allows you
     to drag them around the window."""
@@ -43,3 +43,4 @@ if __name__ == '__main__':
     msg = main()
     print(msg)
     mainloop()
+'''
